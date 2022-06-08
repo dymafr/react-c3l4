@@ -1,10 +1,11 @@
 import React from 'react';
 
-export function Hello({ name, age }) {
+export function Hello({ children }) {
   return (
-    <h2>
-      Hello {name}! Tu as {age} ans
-    </h2>
+    <>
+      <h1>Hello world !</h1>
+      {children}
+    </>
   );
 }
 
